@@ -1,0 +1,314 @@
+
+    *{
+      margin: 0px;
+      font-family:Arial, Helvetica, sans-serif ;
+    }
+      
+    nav img{
+      width: 15px;
+    }
+    .nav-links{
+      
+      text-align: center;
+      width: 100%;
+      position: fixed;
+      
+    }
+    .nav-links ul{
+      background-color: rgb(41, 37, 37);
+      opacity: 0.96;
+      padding-bottom: 5px;
+      padding-left: 0%;
+      border: 0px;
+      margin: 0%;
+    }
+    .nav-links ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 11px 27px 11px;
+      position: relative;
+      vertical-align:middle;
+      
+    }
+    .nav-links ul li a{
+      color: rgb(211, 200, 200);
+      background-color: rgb(45, 41, 41);
+      text-decoration: none;
+      font-size: 20px;
+
+    }
+    .logo{
+      padding-top: 1px;
+      padding-bottom: 0px;
+      color: white;
+      filter: invert(100%) sepia(100%) saturate(26%) hue-rotate(30deg) 
+      brightness(107%) contrast(106%);
+    height: 25px;
+    width: 25px;
+
+    }
+
+  
+        .head-name,.head2,.second-head,.learn-more,.buy,.third-head,
+        .fourth-head,.fifth-head{
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif ;
+            
+       
+
+        }
+        .head-name-head{
+          padding-top:50px;
+          font-size: 22px;
+        }
+        .shop-now{
+          color:rgb(63, 63, 226);
+        }
+          
+        
+        .head2{
+            font-size: 30px;
+        }
+        .head-name{
+          font-size: 20px;
+          padding: 20px;
+        }
+        .join-us-head,.shop-collection{
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+        .shop-collection,.learn-more,.buy{
+           
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color: blue;
+        }
+        .shop-now:hover, .shop-collection:hover, .learn-more:hover, 
+        .buy:hover{
+            text-decoration:underline;
+            cursor: pointer;
+        }
+        .image-one{
+            height: auto;
+            width: 100%;
+            background-position: center center;
+            padding-left: 1px;
+      
+            
+        }
+        .iphone-head,.ipad-head-in{
+            font-weight: 550;
+            font-size: 80px;
+            }
+            .big-bigger{
+                font-size: 40px;
+            }
+        .first-head-buttons{
+          display:flex;
+          flex-direction: row;
+          justify-content: center;
+
+        }
+        .learn-more{
+            display: inline;    
+            
+        }
+        .buy{
+            display: inline;
+            padding-left: 60px;
+        }
+        .arrow{
+          color: blue;
+          font-size: 18px;
+        }
+        .image-two,.image-three{
+          display: flex;
+          flex: 1fr 1fr;
+          flex-direction: row;
+          justify-content: center;
+          width: 100%;
+        }
+        .third-head{
+          border-top:5px;
+          background: black;
+          color:white;
+          
+        }
+        
+        .iphone-head2{
+          font-size: 70px;
+          font-weight: 700;
+          padding-top: 34px;
+          border-radius: 0px;
+          margin-bottom: 0px;
+          margin-top: 30px;
+          
+        }
+        .head-two-sub{
+          margin-top: 3px;
+          margin-bottom:3px;
+          font-size:30px;
+        }
+        .fourth-head{
+        background-image:url(img/fourth.jpg);
+        padding-top: 300px;
+        padding-bottom: 300px;
+        background-size: 100%;
+        min-width:500px ;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+       }
+        .ipad-head{
+        padding-left: 250px;
+        font-size: 30px;
+       }
+
+       .fifth-head{
+        min-height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-image: url(img/fifth.jpg);
+        background-position: center;
+      
+        color:white;
+       
+       
+       }
+      
+      .ipad-head-in{
+        color: black;
+      
+        border: 1px;
+      }
+      .ipad-pro-head,.watch-s-head,.watch-s-sub{
+       color:white;
+       padding-top: 20px;
+       padding-bottom: 0px;
+       font-size: 80px;
+       margin-bottom: 0px;
+       padding: left 500px;
+      }
+      .ipad-pro-sub{
+        font-size: 30px;
+      }
+
+      .sixth-head{
+        min-height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-image: url(img/sixth.jpg);
+        background-position: center;
+      
+        text-align: center;
+      }
+      .tv-sub,.watch-sub,.watch-s-sub{
+        font-size: 24px;
+        font-weight: 100px;
+      }
+      .tv-head,.watch-head,.watch-s-head{
+        font-size: 90px;
+        margin-bottom: 0px;
+        font-weight: 900;
+       
+      }
+
+      .seventh-head{
+        min-height: 100vh;
+        width: 49%;
+        background-size: cover;
+        background-image: url(img/seventh.png);
+        background-position: center;
+        text-align: center;
+        display: inline-block;
+       
+        margin:10px;
+        
+        
+       
+
+      }
+      .watch-ultra{
+        color: orange;
+        font-weight: 700;
+        
+      }
+      .eigth-head{
+        min-height: 100vh;
+        width: 49%;
+        background-size: cover;
+        background-image: url(img/eigth.png);
+        background-position: center;
+        text-align: center;
+        align-items: right;
+        display: inline-block;
+        margin-top:10px;
+        padding-top: 10px;
+
+       
+        
+        
+        
+       
+      }
+      .watch-series{
+        color:red;
+        border: none;
+        margin: 0px;
+        font-size: 15px;
+      }
+      .head-flex-element{
+        vertical-align: top;
+      }
+      
+      footer{
+      
+        padding: 10%;
+        
+      }
+      footer hr{
+        margin: 50px 0px 10px 0px;
+      }
+      footer p{
+        font-size:20px;
+      }
+      footer ul{
+        padding: 20px;
+        padding-right: 40px;
+        list-style: none;
+        display: inline-block;
+       vertical-align: top;
+       justify-content: space-between;
+       margin: 0 4% 0 0;
+      }
+      footer ul li{
+        padding: 10px;
+        font-size: 20px;
+        color: rgb(32, 33, 34);
+        
+      }
+      
+      .footer-head{
+        font-size: 20px;
+        font-weight: 550;
+        color: rgb(48, 46, 46);
+      }
+      .footer-link li{
+        cursor: pointer;
+        text-decoration: underline;
+        
+
+      }
+
+       
+      
+
+
+     
+      
+       
+        
+        
+
+            
+  
